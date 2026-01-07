@@ -91,7 +91,6 @@
                 icon="bi bi-currency-dollar"
                 change="+12.5%"
                 trend="up"
-                variant="primary"
             />
         </div>
         
@@ -122,7 +121,6 @@
                 icon="bi bi-graph-up-arrow"
                 change="-2.4%"
                 trend="down"
-                variant="gold"
             />
         </div>
     </div>

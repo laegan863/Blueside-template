@@ -6,6 +6,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Authentication Routes
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
+
 // Admin Dashboard Routes
 Route::prefix('admin')->group(function () {
     // Dashboard
