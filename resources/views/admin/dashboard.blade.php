@@ -9,10 +9,6 @@
         <x-button variant="gold" icon="bi bi-plus-lg">New Report</x-button>
     </x-page-header>
 
-    <x-accordion-item id="one" title="Section Title" parent="myAccordion" show>
-        Content here
-    </x-accordion-item>
-
     <x-card title="Modals" icon="fas fa-window-restore" class="mb-4">
         <div class="d-flex flex-wrap gap-2">
             <x-modal-trigger target="basicModal" variant="primary">Basic Modal</x-modal-trigger>
